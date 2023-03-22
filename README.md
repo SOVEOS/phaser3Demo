@@ -7,6 +7,6 @@ it has at least one issue that needs resolved, it will continue to use resources
 
 There with interactivity on mobile, but I need to test more.  
 
-the map is built and the tile dimensions are set to interactive hitzones that provides coordinate upon user input.
+the map is built and the tile dimensions are set to interactive hitzones that provides coordinate upon user input.  it is done this way to ensure wrong coordinates are not given when clicking on a tile or asset that overlaps with another.  many of the games assets include units and buildings that will overlap the tiles for the isometric effect, and also even with the single tile asset like it is now, without the hitzones it can give some unexpected coordinates at times when clicking close to the edge of the tiles.  the hitzones fixes this though.  
 
-the games map will be built from an array that will say which tiles to use, that is called from a smart contract on EOS, though it is currently just set to a single tyle with random color tints for the demo.    
+the games map will be built from an array that will say which tiles to use, that is called from a smartcontract on EOS, though it is currently just set to a single tile with random color tints for the demo / testing.    
